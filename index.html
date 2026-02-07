@@ -127,7 +127,7 @@
       to { transform: scale(1); opacity: 1; }
     }
     /* ---------- MOBILE OPTIMIZATION ---------- */
-  @media (max-width: 360px) {
+  @media (max-width: 480px) {
     .card {
       padding: 22px 18px;
       border-radius: 18px;
@@ -164,12 +164,12 @@
     }
     
     .fireworks {
-      width: 85%;          /* 카드보다 살짝 작게 */
-      max-width: 220px;    /* 절대 최대 크기 제한 */
+      width: auto;
+      max-width: 85%;
+      max-height: 200px;
       height: auto;
       display: block;
       margin: 10px auto 0;
-      object-fit: contain;
     }
 
     .result {
@@ -344,6 +344,7 @@
   </script>
 </body>
 </html>
+
 
 
 
